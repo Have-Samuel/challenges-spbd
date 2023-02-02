@@ -75,3 +75,24 @@ function containsEveryVowel(str) {
   }
   return true;
 }
+
+// VowelFrequency
+function vowelFrequency(str) {
+  const result = {};
+  const vowels = 'aeiou';
+
+  for (let char in str) {
+    if (vowels.includes(char)) {
+      if (result[char]) {
+        result[char]++;
+      } else {
+        result[char] = 1;
+      }
+    }
+  }
+  let returnStr = '';
+  for (let key in result) {
+    returnStr += key + result[key];
+  }
+  return returnStr;
+}
