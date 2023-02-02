@@ -12,3 +12,8 @@ Create a program with the followig logic:
 
 # max
 write a function max, which accepts an array and returns the highest value. Do not use the built-in Math() function!
+
+# removeNumbers
+In this problem, you'll be given a string that is a combination of letters and numbers. Return a new String that has all of the numbers removed, and only contains letters and spaces
+
+For instance, if you have the string; 'IW4nt 2 Br3ak Free' return the string 'Wnt Brak Fr'.
