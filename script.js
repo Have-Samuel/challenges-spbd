@@ -69,5 +69,9 @@ function containsEveryVowel(str) {
 }
 // Method - 2
 function containsEveryVowel(str) {
-
+  let vowels = 'aeiou';
+  for (let vowel of vowels) {
+    if (!str.includes(vowel)) return false;
+  }
+  return true;
 }
