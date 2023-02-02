@@ -44,3 +44,30 @@ function onlyEven(arr) {
   return evens;
 }
 onlyEven();
+
+// 'giant sequoia' => true = 0;
+// 'hello world' => false = 0;
+// Vowels => 'a, e, i, o, u'
+// Method - 1
+function containsEveryVowel(str) {
+  // if (!str === 'a') {
+  //   return false
+  // }
+  // if (!str === 'e') {
+  //   return false;
+  // }
+  // if (!str === 'i') {
+  //   return false;
+  // }
+  // if (!str === 'o') {
+  //   return false;
+  // }
+  // if (!str === 'u') {
+  //   return false;
+  // }
+  // return true;
+}
+// Method - 2
+function containsEveryVowel(str) {
+
+}

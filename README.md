@@ -22,3 +22,8 @@ For instance, if you have the string; 'IW4nt 2 Br3ak Free' return the string 'Wn
 In this problem, you'll be given an array of integers. Return a new array that contains only the even numbers in the original array.
 
 For instance, if you are given the array [1,2,3,4,5], return a new array with the values[2,3].
+
+# contauinsEveryVowel
+In this problem, you'll be given a string, if it contains every vowel, excluding y, return true. if it does not contain every vowel, return false, For the purpose of this problem, al letters will be lowercase, so do not worry about checking for uppercase vowels.
+
+For instance, if the string is: 'gaint sequoia', return true. if the string is: 'hello world', return false.
