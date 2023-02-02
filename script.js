@@ -31,3 +31,16 @@ function removeNumbers(str) {
   }
   return newStr;
 }
+
+// [1,2,3,4,5,6,7,8,9,10]
+// return [2,4,6,8,10]
+function onlyEven(arr) {
+  const evens = [];
+  for (let num of arr) {
+    if (num % 2 === 0) { // if it's even
+      evens.push(num);
+    }
+  }
+  return evens;
+}
+onlyEven();
