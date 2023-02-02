@@ -9,3 +9,6 @@ Create a program with the followig logic:
 - if y is false. return the string "Yellow".
 - if x is true and y a is false, return the string "Blue".
 - Otherwise, return the string "Purple".
+
+# max
+write a function max, which accepts an array and returns the highest value. Do not use the built-in Math() function!
