@@ -1,4 +1,4 @@
-# challenges-spbd
+# challenges
 # 1. Logical Colors
 In the problem, we'll test your understanding of basic conditional logic.
 
